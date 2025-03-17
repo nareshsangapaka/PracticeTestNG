@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestFacebook(failed)">
+    <parameter name="author" value="Nithya"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.CrossBrowser.TestClass_012">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialiseExtentReports"/>
+          <include name="checkStatus"/>
+          <include name="generateExtentReports"/>
+          <include name="TestFacebook"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.CrossBrowser.TestClass_012 -->
+    </classes>
+  </test> <!-- TestFacebook(failed) -->
+</suite> <!-- Failed suite [suite] -->

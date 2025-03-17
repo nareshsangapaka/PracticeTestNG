@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browserName" value="chrome" />
+	<parameter name="url" value="https://www.google.com/" />
+	<test name="AnnotationLaunch">
+		<classes>
+			<class name="com.PracticeTestNG.AnnotationLaunch">
+				<methods>
+					<include name="InitialiseBrowser" />
+					<include name="LaunchApp" />
+					<include name="Teardown" />
+				</methods>
+			</class>
+		</classes>
+		</test> <!-- Test -->
+</suite> <!-- Suite -->

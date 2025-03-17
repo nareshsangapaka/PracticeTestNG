@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="GitTest">
+		<classes>
+			<class name="com.PracticeTestNG.GitTest">
+				<methods>
+					<include name="LaunchGitSite" />
+					<include name="LoginGit" />
+					<include name="VerifyLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
+
